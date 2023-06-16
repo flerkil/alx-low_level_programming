@@ -7,7 +7,8 @@
 	int main(void)
 {
 	char n[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	for (int i; i = 0; i < 52; i++)
+	int i;
+	for (i = 0; i < 52; i++)
 {
 	putchar(n[i]);
 }
