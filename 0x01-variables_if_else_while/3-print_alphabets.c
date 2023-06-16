@@ -8,6 +8,7 @@
 {
 	char n[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i;
+
 	for (i = 0; i < 52; i++)
 {
 	putchar(n[i]);
