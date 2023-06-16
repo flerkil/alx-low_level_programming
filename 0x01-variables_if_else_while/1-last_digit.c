@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* 1. The last digit */
-
-/* return 0 */
+/**
+* main - 1. The last digit 
+*
+* Return 0
+*/
 int main(void)
 {
 	int n;
