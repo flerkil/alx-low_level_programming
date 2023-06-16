@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 /**
-* main - 1. The last digit 
+*Prints the last digit of a random generated number.
 *
-* Return 0
+* Return: 0.
 */
 int main(void)
 {
