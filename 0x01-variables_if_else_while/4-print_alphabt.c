@@ -9,14 +9,16 @@
 	int main(void)
 {
 	int i = 0;
+
 	char n[26] = "abcdefghijklmnopqrstuvwxyz";
-	for (i = 0; i < 26; i++ )
-    {
+
+	for (i = 0; i < 26; i++)
+{
 	if (i != 16 && i != 4)
 {
 	putchar(n[i]);
 }
 }
 	putchar('\n');
-	return 0;
+	return (0);
 }
