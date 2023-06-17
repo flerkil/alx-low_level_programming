@@ -12,7 +12,7 @@
 	char n[26] = "abcdefghijklmnopqrstuvwxyz";
 	for (i = 0; i < 26; i++ )
     {
-	if (i! = 16 && i != 4)
+	if (i != 16 && i != 4)
 {
 	putchar(n[i]);
 }
