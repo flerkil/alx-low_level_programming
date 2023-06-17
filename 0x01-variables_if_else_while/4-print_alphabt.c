@@ -8,16 +8,15 @@
 */
 	int main(void)
 {
-	int i;
-
-	for (i = 97; i < 123; i++)
+	int i = 0;
+	char n[26] = "abcdefghijklmnopqrstuvwxyz";
+	for (i = 0; i < 26; i++ )
+    {
+	if (i! = 16 && i != 4)
 {
-	if (i != 101 && i != 113)
-{
-	putchar(i);
+	putchar(n[i]);
 }
 }
 	putchar('\n');
-	return (0);
+	return 0;
 }
-
