@@ -14,7 +14,6 @@ int i;
 for (i = 0; i < 26; i++)
 {
 _putchar(n[i]);
-print_alphabet();
-_putchar("\n")
 }
+_putchar('\n');
 }
