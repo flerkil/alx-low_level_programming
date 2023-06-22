@@ -8,18 +8,19 @@
 
 void print_line(int n)
 {
-int i,j;
+int j;
 
-if (i <= 0)
+if (n <= 0)
 {
 _putchar('\n');
 }
-if (i > 0)
+else if (n > 0)
 {
-for (j = 0; j < i; j++)
+for (j = 0; j < n; j++)
 {
-_putchar('\n')
+_putchar('_');
 }
-_putchar('\n')
+_putchar('\n');
 }
 }
+
